@@ -7,11 +7,15 @@ This challenge focuses on the topic of large-scale taxonomy classification where
 Dataset details:
 As part of this challenge, Rakuten will be releasing 1M product listings in tsv format, including the train (0.8M) and test set (0.2M), consisting of product titles and their corresponding category ID paths. The followings are some examples from the training set,
 
-Title	CeategoryIdPath
-Replacement Viewsonic VG710 LCD Monitor 48Watt AC Adapter 12V 4A	3292>114>1231
-Ka-Bar Desert MULE Serrated Folding Knife	4238>321>753>3121
-5.11 TACTICAL 74280 Taclite TDU Pants, R/M, Dark Navy	4015>3285>1443>20
-Skechers 4lb S Grip Jogging Weight set of 2- Black	2075>945>2183>3863
+Title 	CeategoryIdPath
+
+Replacement Viewsonic VG710 LCD Monitor 48Watt AC Adapter 12V 4A   	3292>114>1231
+
+Ka-Bar Desert MULE Serrated Folding Knife  	4238>321>753>3121
+
+5.11 TACTICAL 74280 Taclite TDU Pants, R/M, Dark Navy  	4015>3285>1443>20
+
+Skechers 4lb S Grip Jogging Weight set of 2- Black  	2075>945>2183>3863
 
 The test set will contain only the title field and the goal is to predict the CeategoryIdPath for each title.
 
