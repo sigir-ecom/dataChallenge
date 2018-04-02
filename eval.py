@@ -1,7 +1,6 @@
 #!/usr/bin/env python
-
+	
 import argparse
-
 from sklearn.metrics import precision_recall_fscore_support
 
 
@@ -38,7 +37,6 @@ def main():
         '-gold',
         '--gold_file',
         required = True)
-
     
     args = vars(parser.parse_args())
     pred_file = args['pred_file']
